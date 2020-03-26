@@ -14,6 +14,7 @@ var rosegga_stone = {
   m: "gg",
   n: "ge",
   o: "ggg",
+  p: "egge",
   q: "ggeg",
   r: "ege",
   s: "eee",
