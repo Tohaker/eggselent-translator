@@ -37,7 +37,7 @@ var rosegga_stone = {
 };
 
 function translegg() {
-  var seggtance = document.getElementById("seggtance").value;
+  var seggtance = document.getElementById("human-seggtance").value;
 
   var new_seggtance = "";
 
@@ -54,5 +54,27 @@ function translegg() {
     }
   }
 
-  document.getElementById("answer").innerHTML = new_seggtance;
+  document.getElementById("answer-human").innerHTML = new_seggtance;
+}
+
+function gegeeggeeeeegeeeggegge() {
+  var seggtance = document.getElementById("egg-seggtance").value.split(" ");
+
+  var reggult = "";
+
+  for (var i = 0; i < seggtance.length; i++) {
+    if (seggtance[i] === "") {
+      reggult += " ";
+      continue;
+    }
+
+    for (var key in rosegga_stone) {
+      if (rosegga_stone[key] === seggtance[i]) {
+        reggult += key;
+        break;
+      }
+    }
+  }
+
+  document.getElementById("answer-egg").innerHTML = reggult;
 }

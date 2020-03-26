@@ -1,18 +1,53 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <!-- Primary Meta Tags -->
+    <title>Transleggtor</title>
+    <meta name="title" content="Transleggtor" />
+    <meta name="description" content="Egg your friends" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://transleggtor.co.uk/" />
+    <meta property="og:title" content="Transleggtor" />
+    <meta property="og:description" content="Egg your friends" />
+    <meta property="og:image" content="http://transleggtor.co.uk/egg.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="http://transleggtor.co.uk/" />
+    <meta property="twitter:title" content="Transleggtor" />
+    <meta property="twitter:description" content="Egg your friends" />
+    <meta property="twitter:image" content="http://transleggtor.co.uk/egg.jpg" />
+  </head>
+
   <script src="index.js"></script>
   <link rel="stylesheet" , type="text/css" href="style.css" />
   <header><title>Transleggtor</title></header>
   <body>
+    <img src="egg.jpg" width="30%" />
     <div class="main">
-      <img src="egg.jpg" width="30%" />
-      <p>Eggter your words:</p>
-      <textarea id="seggtance" name="seggtance"></textarea>
-      <br />
-      <br />
-      <button type="button" onclick="translegg()">Translegg</button>
-      <p>Transleggtion:</p>
-      <pre id="answer"></pre>
+      <div class="human">
+        <p>Eggter your words:</p>
+        <textarea id="human-seggtance" name="seggtance"></textarea>
+        <br />
+        <br />
+        <button type="button" onclick="translegg()">Translegg</button>
+        <p>Transleggtion:</p>
+        <pre id="answer-human"></pre>
+      </div>
+
+      <div class="egg">
+        <p>Egg?:</p>
+        <textarea id="egg-seggtance" name="seggtance"></textarea>
+        <br />
+        <br />
+        <button type="button" onclick="gegeeggeeeeegeeeggegge()">
+          gegeeggeeeeegeeeggegge
+        </button>
+        <p>What it means:</p>
+        <pre id="answer-egg"></pre>
+      </div>
     </div>
   </body>
 </html>
