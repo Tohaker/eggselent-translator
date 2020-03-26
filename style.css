@@ -1,0 +1,14 @@
+.main {
+  width: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f0ead6;
+}
+
+button {
+  padding: 12px;
+  border-radius: 12px;
+}
