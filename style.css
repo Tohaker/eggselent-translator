@@ -2,16 +2,47 @@
   width: auto;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
-.human {
-  display: inline-block;
-  width: 20%;
+.translator {
+  margin: 10px;
 }
 
-.egg {
+.image-container {
   display: inline-block;
-  width: 20%;
+  text-align: center;
+}
+
+@media only screen and (min-width: 440px) {
+  .main {
+    flex-direction: row;
+  }
+
+  .translator {
+    width: 20%;
+  }
+
+  .egg-image {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .translator {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .egg-image {
+    width: 40%;
+  }
 }
 
 body {
@@ -21,12 +52,6 @@ body {
 button {
   padding: 12px;
   border-radius: 12px;
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 pre {

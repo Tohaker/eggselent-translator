@@ -43,19 +43,24 @@
   <link rel="stylesheet" , type="text/css" href="style.css" />
   <header><title>Transleggtor</title></header>
   <body>
-    <img src="egg.jpg" width="30%" />
+    <div class="image-container">
+      <a href="https://www.facebook.com/groups/AGroupWhereYouCanOnlySayEgg">
+        <img class="egg-image" src="egg.jpg" alt="A jpegg" />
+      </a>
+    </div>
+
     <div class="main">
-      <div class="human">
+      <div class="translator">
         <p>Eggter your words:</p>
         <textarea id="human-seggtance" name="seggtance"></textarea>
         <br />
         <br />
         <button type="button" onclick="translegg()">Translegg</button>
         <p>Transleggtion:</p>
-        <pre id="answer-human"></pre>
+        <textarea id="answer-human" readonly="true"></textarea>
       </div>
 
-      <div class="egg">
+      <div class="translator">
         <p>Egg?:</p>
         <textarea id="egg-seggtance" name="seggtance"></textarea>
         <br />
@@ -64,8 +69,11 @@
           gegeeggeeeeegeeeggegge
         </button>
         <p>What it means:</p>
-        <pre id="answer-egg"></pre>
+        <textarea id="answer-egg" readonly="true"></textarea>
       </div>
     </div>
   </body>
+  <footer>
+    <a href="https://www.github.com/tohaker">Made with eggs by Tohaker</a>
+  </footer>
 </html>

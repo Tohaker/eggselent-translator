@@ -55,7 +55,7 @@ function translegg() {
     }
   }
 
-  document.getElementById("answer-human").innerHTML = new_seggtance;
+  document.getElementById("answer-human").value = new_seggtance;
 }
 
 function gegeeggeeeeegeeeggegge() {
@@ -77,5 +77,5 @@ function gegeeggeeeeegeeeggegge() {
     }
   }
 
-  document.getElementById("answer-egg").innerHTML = reggult;
+  document.getElementById("answer-egg").value = reggult;
 }
