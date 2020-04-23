@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/eggselent-translator/static/css/main.0b0eb16b.chunk.css",
-    "main.js": "/eggselent-translator/static/js/main.b1cb3751.chunk.js",
-    "main.js.map": "/eggselent-translator/static/js/main.b1cb3751.chunk.js.map",
-    "runtime-main.js": "/eggselent-translator/static/js/runtime-main.350d83f3.js",
-    "runtime-main.js.map": "/eggselent-translator/static/js/runtime-main.350d83f3.js.map",
-    "static/js/2.0af4f900.chunk.js": "/eggselent-translator/static/js/2.0af4f900.chunk.js",
-    "static/js/2.0af4f900.chunk.js.map": "/eggselent-translator/static/js/2.0af4f900.chunk.js.map",
-    "index.html": "/eggselent-translator/index.html",
-    "precache-manifest.c64f1a71589d6842bf209db044f34d71.js": "/eggselent-translator/precache-manifest.c64f1a71589d6842bf209db044f34d71.js",
-    "service-worker.js": "/eggselent-translator/service-worker.js",
-    "static/css/main.0b0eb16b.chunk.css.map": "/eggselent-translator/static/css/main.0b0eb16b.chunk.css.map",
-    "static/js/2.0af4f900.chunk.js.LICENSE.txt": "/eggselent-translator/static/js/2.0af4f900.chunk.js.LICENSE.txt",
-    "static/media/egg.jpg": "/eggselent-translator/static/media/egg.60d093c7.jpg"
+    "main.css": "/static/css/main.0b0eb16b.chunk.css",
+    "main.js": "/static/js/main.b1cb3751.chunk.js",
+    "main.js.map": "/static/js/main.b1cb3751.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4965cda9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4965cda9.js.map",
+    "static/js/2.f0dca5d6.chunk.js": "/static/js/2.f0dca5d6.chunk.js",
+    "static/js/2.f0dca5d6.chunk.js.map": "/static/js/2.f0dca5d6.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7344033b748c98ced17decb5b5d530f2.js": "/precache-manifest.7344033b748c98ced17decb5b5d530f2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0b0eb16b.chunk.css.map": "/static/css/main.0b0eb16b.chunk.css.map",
+    "static/js/2.f0dca5d6.chunk.js.LICENSE.txt": "/static/js/2.f0dca5d6.chunk.js.LICENSE.txt",
+    "static/media/egg.jpg": "/static/media/egg.60d093c7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.350d83f3.js",
-    "static/js/2.0af4f900.chunk.js",
+    "static/js/runtime-main.4965cda9.js",
+    "static/js/2.f0dca5d6.chunk.js",
     "static/css/main.0b0eb16b.chunk.css",
     "static/js/main.b1cb3751.chunk.js"
   ]
