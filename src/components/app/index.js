@@ -3,6 +3,7 @@ import Translator from "components/translator";
 import HeaderImage from "components/image";
 import { Container, Footer } from "./styled";
 import ReactGA from "react-ga";
+import Frame from "components/translator/frame";
 
 ReactGA.initialize("UA-162030091-1");
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -98,19 +99,7 @@ const App = () => {
             "https://www.facebook.com/groups/AGroupWhereYouCanOnlySayEgg"
           }
         />
-        <Translator
-          title={"Eggter your words (English → Egg):"}
-          buttonText={"Translegg"}
-          onClickHandler={translegg}
-          translation={eggTranslation}
-        />
-
-        <Translator
-          title={"Egg? (Egg → English)"}
-          buttonText={"gegeeggeeeeegeeeggegge"}
-          onClickHandler={gegeeggeeeeegeeeggegge}
-          translation={engTranslation}
-        />
+        <Frame />
       </Container>
       <Footer>
         <a href="https://www.github.com/tohaker">Made with eggs by Tohaker</a>
